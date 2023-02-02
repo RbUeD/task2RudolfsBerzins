@@ -1,0 +1,398 @@
+.header a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #060606;
+}
+
+.navbar {
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+}
+
+.popup_btn {
+    z-index: 101;
+}
+
+.popup_btn span {
+    z-index: 102;
+}
+
+.img_wide {
+    width: 100%;
+}
+
+.cut {
+    position: absolute;
+    z-index: 99;
+    margin-top: -6%;
+    width: 100%;
+    min-height: 19.53px;
+}
+
+.xl_li {
+    white-space: nowrap;
+}
+
+.video {
+    z-index: 1;
+}
+
+.maintext {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2F4858;
+}
+
+.video_container {
+    position: relative;
+}
+
+.main_txt_container {
+    height: 400px;
+}
+
+.photo_gallery div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.photo {
+    max-height: 349px;
+    width: 100%;
+    height: 100%;
+}
+
+.photo_placeholder {
+    max-height: 349px;
+}
+
+.nested_photo {
+    max-height: 174.5px;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery_ripped_t {
+    position: absolute;
+    margin-top: -2px;
+    width: 100%;
+}
+
+.gallery_ripped_b {
+    position: absolute;
+    width: 100%;
+    margin-top: -3%;
+}
+
+.button_header {
+    height: 200px;
+}
+
+.button_header h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #2F4858;
+    text-align: center;
+}
+
+.button_placeholder {
+    height: 200px;
+}
+
+.button_placeholder button {
+    width: 233px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #CD7C20;
+    color: white;
+    border-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.contacts {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #2F4858;
+}
+
+input {
+    border-radius: 5px;
+    max-width: 612px;
+    height: 35px;
+    border: none;
+    background-color: #C4C4C466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2F4858;
+}
+
+.half_input {
+    width: 296px;
+}
+
+.form_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2F4858;
+}
+
+.submit_button_placeholder {
+    height: 200px;
+}
+
+.submit_button_placeholder button {
+    width: 182px;
+    height: 62px;
+    border-radius: 40px;
+    background-color: #FFA800;
+    color: white;
+    border-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 550;
+    color: #FFFFFF;
+}
+
+.logoimg {
+    margin-top: 59.75px
+}
+
+.copyright_text {
+    position: absolute;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    color: #FFFFFF;
+}
+
+.informative_txt {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: #FFFFFF;
+}
+
+.bank_info_txt {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+#q_comment {
+    height: 232px;
+    text-align: start;
+}
+
+#phone_nr {
+    width: 100%;
+}
+
+#sponsors {
+    height: 533.32px;
+    background-image: url(/assets/img/sponsors.png);
+}
+
+#sponsors h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2F4858;
+}
+
+#sponsors_txt_placeholder {
+    height: 250px;
+}
+
+#footer {
+    height: 376px;
+    background-image: url(/assets/img/footer.png);
+    margin-top: -83.33px;
+}
+
+#comune_sparkleheart {
+    font-size: 24px;
+}
+
+#contact_person {
+    font-size: 24px;
+}
+
+#logo {
+    width: 159px;
+    margin-top: -8px;
+}
+
+#LV {
+    text-align: end;
+}
+
+@media screen and (min-width: 1366px) {
+    .header a {
+        font-size: 18px;
+    }
+
+    .xl_li {
+        margin-right: 3em;
+    }
+
+    .golden_logo {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header a {
+        font-size: 18px;
+    }
+
+    .golden_logo {
+        width: 162px;
+    }
+
+    #logo {
+        width: 128px;
+    }
+
+    #submit_button {
+        width: 140px;
+    }
+
+    #teikums_logo {
+        width: 130px;
+    }
+
+    #SEM_logo {
+        width: 131px;
+    }
+
+    #Citybee_logo {
+        width: 131px;
+    }
+
+    #Linearis_logo {
+        width: 48px;
+    }
+
+    #contact_person_medium {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 550;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header a {
+        font-size: 18px;
+    }
+
+    .button_header h3 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #2F4858;
+        text-align: center;
+    }
+
+    .button_placeholder {
+        height: 200px;
+    }
+
+    .img-block {
+        width: 100px;
+    }
+
+    .logoimg {
+        margin-top: 40px
+    }
+
+    .copyright_text {
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 10%;
+        font-size: 11px;
+    }
+
+    .bank_info_small {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 550;
+        color: #FFFFFF;
+    }
+
+    .button_placeholder button {
+        width: 233px;
+        height: 50px;
+        border-radius: 40px;
+        background-color: #CD7C20;
+        color: white;
+        border-color: transparent;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 550;
+    }
+
+    .photo {
+        height: 162.84px;
+    }
+
+    .contacts {
+        font-size: 18px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    .maintext {
+        font-size: 14px;
+    }
+
+    #submit_button {
+        width: 140px;
+    }
+
+    #teikums_logo {
+        width: 130px;
+    }
+
+    #SEM_logo {
+        width: 131px;
+    }
+
+    #Citybee_logo {
+        margin-top: 40px;
+        width: 131px;
+    }
+
+    #Linearis_logo {
+        margin-top: 40px;
+        width: 48px;
+    }
+
+    #smallbutton {
+        height: 50px;
+    }
+
+    #logo {
+        width: 78px;
+    }
+}
