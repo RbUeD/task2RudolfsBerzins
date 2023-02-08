@@ -1,3 +1,5 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap|Oswald&display=swap);
 .header a {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -190,6 +192,13 @@ input {
     font-size: 18px;
     font-weight: 550;
     color: #FFFFFF;
+    text-align: left;
+}
+.contact_info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: #FFFFFF;
     text-align: right;
 }
 
@@ -223,7 +232,7 @@ input {
 #footer {
     height: 376px;
     background-image: url(/assets/img/footer.png);
-    margin-top: -83.33px;
+    margin-top: -83px;
 }
 
 #comune_sparkleheart {
@@ -394,5 +403,21 @@ input {
 
     #logo {
         width: 78px;
+    }
+}
+@media screen and (max-width: 1439px) {
+    .contact_info{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 550;
+        color: #FFFFFF;
+        text-align: right;
+    }
+    .informative_txt {
+        font-size: 16px;
+    }
+    
+    .bank_info_txt {
+        font-size: 16px;
     }
 }
