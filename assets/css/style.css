@@ -213,8 +213,7 @@ input {
 
 #sponsors {
     height: 533.32px;
-    background-image:url("https://lawrencecheng123.github.io/Seattle.jpg");
-    background-image: url("https://github.com/RbUeD/task_2_Rudolfs_Berzins/blob/main/assets/img/sponsors.png");
+    background-image:url(../img/sponsors.jpg);
 }
 
 #sponsors h3 {
@@ -232,7 +231,7 @@ input {
 
 #footer {
     height: 376px;
-    background-image: url(../img/footer.png);
+    background-image: url(../img/footer.jpg);
     margin-top: -83px;
 }
 
