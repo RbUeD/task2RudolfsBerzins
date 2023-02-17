@@ -4,7 +4,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #060606;
+    color: #060606
 }
 
 .navbar {
@@ -28,7 +28,7 @@
 .cut {
     position: absolute;
     z-index: 99;
-    margin-top: -6%;
+    margin-top: -7%;
     width: 100%;
     min-height: 19.53px;
 }
@@ -97,7 +97,7 @@
 .button_header h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
     color: #2F4858;
     text-align: center;
@@ -140,7 +140,7 @@ input {
 }
 
 .half_input {
-    width: 296px;
+    max-width: 296px;
 }
 
 .form_text {
@@ -174,6 +174,7 @@ input {
 .copyright_text {
     position: absolute;
     margin-top: 5%;
+    width: 300px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 550;
@@ -216,17 +217,17 @@ input {
     background-image:url(../img/sponsors.jpg);
 }
 
-#sponsors h3 {
+#sponsors_txt_placeholder {
+    height: 250px;
+}
+
+#sponsors_txt_placeholder h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 24px;
     text-transform: uppercase;
     text-align: center;
     color: #2F4858;
-}
-
-#sponsors_txt_placeholder {
-    height: 250px;
 }
 
 #footer {
@@ -252,6 +253,10 @@ input {
     text-align: end;
 }
 
+#obligatory_text {
+    margin-left:29%;
+}
+
 @media screen and (min-width: 1366px) {
     .header a {
         font-size: 18px;
@@ -264,7 +269,9 @@ input {
     .golden_logo {
         margin-left: 20px;
     }
+    
 }
+
 
 @media screen and (max-width: 1023px) {
     .header a {
@@ -305,6 +312,10 @@ input {
         font-weight: 550;
         color: #FFFFFF;
     }
+    #obligatory_text {
+        margin-left:18%;
+    }
+    
 }
 
 @media screen and (max-width: 767px) {
@@ -403,6 +414,9 @@ input {
 
     #logo {
         width: 78px;
+    }
+    #obligatory_text {
+        margin-left:8%;
     }
 }
 @media screen and (max-width: 1439px) {

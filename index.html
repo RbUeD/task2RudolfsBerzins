@@ -11,14 +11,14 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light static-top container-fluid g-0">
-    <img class="ms-5 navbar-brand" id="logo" src="assets/img/BlackLogo 3.png" alt="navbar logo">
+    <img class="navbar-brand col-2" id="logo" src="assets/img/BlackLogo 3.png" alt="navbar logo">
     <button class="navbar-toggler popup_btn " type="button" data-bs-toggle="collapse" data-bs-target="#popup"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon "></span>
     </button>
     <div class="collapse navbar-collapse" id="popup">
 
-      <ul class="navbar-nav me-auto header">
+      <ul class="navbar-nav header ">
         <div class="row d-lg-none d-flex">
           <li class="nav-item col d-flex justify-content-end">
             <a class="nav-link active" aria-current="page" href="#">LV</a>
@@ -60,35 +60,37 @@
             <a class="nav-link active ms-lg-4 me-lg-5" href="#">99 iedvesmas stāsti</a>
           </li>
         </div>
-        <li class="nav-item d-none d-lg-flex xl_li">
-          <a class="nav-link active col-xl" aria-current="page" href="#">Ideja</a>
-        </li>
-        <li class="nav-item d-none d-lg-flex xl_li">
-          <a class="nav-link active col-xl" href="#">Piesaki Sapni</a>
-        </li>
-        <li class="nav-item d-none d-lg-flex xl_li">
-          <a class="nav-link active col-xl" href="#">Uzņēmējiem</a>
-        </li>
-        <li class="nav-item d-none d-lg-block xl_li">
-          <a class="nav-link active col-xl" href="#">Sapņu banka</a>
-        </li>
-        <li class="nav-item d-none d-lg-block xl_li">
-          <a class="nav-link active col-xl" href="#">Sapņus atbalsta</a>
-        </li>
-        <li class="nav-item d-none d-lg-block xl_li">
-          <a class="nav-link active col-xl" href="#">99 iedvesmas stāsti</a>
-          <div class="col-1">
-            <li class="nav-item d-none d-lg-flex justify-content-end xl_li">
-              <a class="nav-link active col-xl" id="LV" href="#">LV</a>
-            </li>
-          </div>
-        </ul>
-      </div>
+      </ul>
+        <div class="container-fluid d-inline-flex justify-content-evenly navbar-nav header">
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link active" aria-current="page" href="#">Ideja</a>
+          </li>
+          <li class="nav-item d-none d-lg-block ">
+            <a class="nav-link active" href="#">Piesaki Sapni</a>
+          </li>
+          <li class="nav-item d-none d-lg-block ">
+            <a class="nav-link active" href="#">Uzņēmējiem</a>
+          </li>
+          <li class="nav-item d-none d-lg-block ">
+            <a class="nav-link active" href="#">Sapņu banka</a>
+          </li>
+          <li class="nav-item d-none d-lg-block ">
+            <a class="nav-link active" href="#">Sapņus atbalsta</a>
+          </li>
+          <li class="nav-item d-none d-lg-block ">
+            <a class="nav-link active" href="#">99 iedvesmas stāsti</a>
+            <div class="col-1">
+          <li class="nav-item d-none d-lg-block justify-content-end ">
+            <a class="nav-link active" id="LV" href="#">LV</a>
+          </li>
+        </div>
+    </div>
+    </div>
   </nav>
-</div>
-<div class="container-fluid g-0 pt-0 pt-sm-0 pt-md-0 pt-lg-0 pt-xl-0 pt-xxl-0">
-  <img class="img_wide cut" src="assets/img/cut_side_1.png" alt="">
-</div>
+  </div>
+  <div class="container-fluid g-0 pt-0 pt-sm-0 pt-md-0 pt-lg-0 pt-xl-0 pt-xxl-0">
+    <img class="img_wide cut" src="assets/img/cut_side_1.png" alt="">
+  </div>
   </nav>
   <img class="img_wide cut container-fluid g-0 pt-0 pt-sm-0 pt-md-0 pt-lg-0 pt-xl-0 pt-xxl-0"
     src="assets/img/cut_side_1.png" alt="scissor cut effect">
@@ -107,7 +109,7 @@
   </div>
   <div class="container-fluid g-0">
     <div class="row g-0">
-        <img src="assets/img/ripped 6 7.png" class="gallery_ripped_t col-12" alt="scissor cut effect for gallery top">
+      <img src="assets/img/ripped 6 7.png" class="gallery_ripped_t col-12" alt="scissor cut effect for gallery top">
     </div>
     <div class="row g-0">
       <div class="container-fluid col-5 d-md-none photo_placeholder">
@@ -177,23 +179,25 @@
       </div>
     </div>
     <div class="container-fluid d-block g-4 g-md-0">
-      <div class="col-12 col-md-6 col-lg-6 offset-md-3 offset-0 mb-2 mb-md-0 d-flex justify-content-center">
+      <div class="row">
+      <div class="col-12 col-md-4 col-lg-3 offset-md-2 offset-lg-3 mb-2 mb-md-0 d-flex justify-content-center justify-content-md-end">
         <input class="w-100 half_input mb-2" type="text" id="name_surname" placeholder="Vārds,Uzvārds*">
       </div>
-      <div class="col-md-6 offset-md-3 col-12 mb-2 mt-2 mt-md-0 d-flex justify-content-center">
-        <input class="w-100 half_input mt-2" type="text" id="email" placeholder="E-pasts*">
+      <div class="col-md-4 col-lg-3 offset-lg-0 col-12 mb-2 mt-2 mt-md-0 d-flex justify-content-center justify-content-md-start">
+        <input class="w-100 half_input mt-2 mt-md-0" type="text" id="email" placeholder="E-pasts*">
       </div>
-      <div class="col-md-6 offset-md-3 col-12 mt-2 mb-2 d-flex justify-content-center ">
+    </div>
+      <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-12 mt-2 mb-2 d-flex justify-content-center ">
         <input class="w-100 mt-2 mb-2 " type="text" id="phone_nr" placeholder="Telefons*">
       </div>
-      <div class="col-md-6 offset-md-3 col-12 mt-2 d-flex justify-content-center">
+      <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-12 mt-2 d-flex justify-content-center">
         <input class="w-100" type="text" id="q_comment" placeholder="Jautājums,vai komentārs*">
       </div>
     </div>
     <div class="row g-0">
       <div
-        class="col-12 col-lg-4 col-xxl-3 offset-md-3 offset-lg-2 col-md-4 d-xl-flex justify-content-xl-end ps-xxl-5 ">
-        <p class="form_text ms-lg-5 ps-4 ps-md-0 ps-lg-4 ps-xl-5 mt-2">*obligāti aizpildāmie lauki</p>
+        class="col-12">
+        <p class="form_text " id="obligatory_text">*obligāti aizpildāmie lauki</p>
       </div>
     </div>
     <div class="row mt-3 g-0">
@@ -215,18 +219,18 @@
     <div class="row d-flex justify-content-center g-0" id="sponsors_txt_placeholder">
       <h3 class="my-auto">atbalstītāji</h3>
     </div>
-    <div class="row g-0" id="sponsors_logo_placeholder">
-      <div class="col-6 col-md-3 col-lg-2 pe-sm-4 ms-md-5 me-lg-5 d-flex justify-content-center">
-        <img src="assets/img/Teikums.png" class="ps-md-5" id="teikums_logo" alt="teikums sponsor logo">
+    <div class="row d-flex justify-content-evenly g-0" id="sponsors_logo_placeholder">
+      <div class="col-6 col-md-2 col-lg-2 d-block justify-content-center">
+        <img src="assets/img/Teikums.png" class="ps-4 ps-md-0" id="teikums_logo" alt="teikums sponsor logo">
       </div>
-      <div class="col-6 col-md-3 col-lg-2 ps-sm-4 ms-lg-5 me-lg-5 ps-md-0 d-flex justify-content-center">
+      <div class="col-6 col-md-2 col-lg-2 d-block justify-content-center">
         <img src="assets/img/SEM.png" id="SEM_logo" alt="SEM sponsor logo">
       </div>
-      <div class="col-6 col-md-3 col-lg-2 pe-sm-4 ms-lg-5 me-lg-5 pe-md-0 d-flex justify-content-center ">
-        <img src="assets/img/Citybee-logo 1.png" id="Citybee_logo" alt="City bee sponsor logo">
+      <div class="col-6 col-md-2 col-lg-2 pe-sm-4 ">
+        <img src="assets/img/Citybee-logo 1.png" class="ps-4 ps-md-0" id="Citybee_logo" alt="City bee sponsor logo">
       </div>
-      <div class="col-6 col-md-3 col-lg-2 pe-sm-5 ms-lg-4 pe-md-0 d-flex justify-content-center ">
-        <img src="assets/img/Linearis.png" id="Linearis_logo" alt="Linearis sponsor logo">
+      <div class="col-6 col-md-2 col-lg-2 pe-sm-5 d-flex justify-content-center  ">
+        <img src="assets/img/Linearis.png" class="px-auto" id="Linearis_logo" alt="Linearis sponsor logo">
       </div>
     </div>
   </div>
@@ -234,12 +238,13 @@
     <div class="row">
       <div class="col-12 logoimg d-inline-flex ">
         <article class="d-block col-12 col-md-3 g-0">
-          <img class="golden_logo ms-md-5 ms-lg-auto img-block" src="assets/img/GoldenV2Logo_3.png" alt="page logo 2">
+          <img class="golden_logo ms-md-5 px-auto img-block" src="assets/img/GoldenV2Logo_3.png"
+            alt="page logo 2">
           <p class="col-12 mt-3 d-lg-none ms-md-5 ms-lg-auto" id="contact_person_medium">Juris Gogulis</p>
           <p class="bank_info_small col-12 d-md-none">Juris.Gogulis@sparkleheart.org</p>
           <p class="bank_info_small col-12 mt-3 d-md-none">+37126890034</p>
           <p class="bank_info_small col-12 mt-3 d-md-none">Biķernieku iela 24a - 5, LV-1006</p>
-          <p class="copyright_text col-12 ms-0 ms-md-5 ms-lg-auto">© SparkleHeart 2020.<br class="d-none d-lg-block">
+          <p class="copyright_text col-12 ms-lg-auto">© SparkleHeart 2020.<br class="d-none d-lg-block">
             Visas
             tiesības aizsargātas.</p>
         </article>
