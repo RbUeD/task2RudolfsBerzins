@@ -1,5 +1,6 @@
 @import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap|Oswald&display=swap);
+
 .header a {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -195,7 +196,8 @@ input {
     color: #FFFFFF;
     text-align: left;
 }
-.contact_info{
+
+.contact_info {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 550;
@@ -214,7 +216,7 @@ input {
 
 #sponsors {
     height: 533.32px;
-    background-image:url(../img/sponsors.jpg);
+    background-image: url(../img/sponsors.jpg);
 }
 
 #sponsors_txt_placeholder {
@@ -247,6 +249,7 @@ input {
 #logo {
     width: 159px;
     margin-top: -8px;
+    margin-left: 5%;
 }
 
 #LV {
@@ -254,7 +257,7 @@ input {
 }
 
 #obligatory_text {
-    margin-left:29%;
+    margin-left: 29%;
 }
 
 @media screen and (min-width: 1366px) {
@@ -269,7 +272,12 @@ input {
     .golden_logo {
         margin-left: 20px;
     }
-    
+
+    #logo {
+        margin-left: 5%;
+    }
+
+
 }
 
 
@@ -312,10 +320,16 @@ input {
         font-weight: 550;
         color: #FFFFFF;
     }
+
     #obligatory_text {
-        margin-left:18%;
+        margin-left: 18%;
     }
-    
+
+    #logo {
+        margin-left: 8%;
+    }
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -414,23 +428,29 @@ input {
 
     #logo {
         width: 78px;
+        margin-left: 10%;
+
     }
+
     #obligatory_text {
-        margin-left:8%;
+        margin-left: 8%;
     }
+
 }
+
 @media screen and (max-width: 1439px) {
-    .contact_info{
+    .contact_info {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         font-weight: 550;
         color: #FFFFFF;
         text-align: right;
     }
+
     .informative_txt {
         font-size: 16px;
     }
-    
+
     .bank_info_txt {
         font-size: 16px;
     }
